@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background: #313131;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigation {
+    float: right;
+    margin-top: 25px;
+}
+
+.navigation li {
+    display: block;
+    float: right;
+    padding-left: 40px;
+}
+
+.navigation li a {
+    color: #fdfdff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: #00a2c8;
+}
+
+.beranda_galeri {
+    font-family: 'Poppins', sans-serif;
+    color: #313131;
+    margin-bottom: -30px;
+}
+
+.beranda_galeri .container .beranda {
+    font-size: 16px;
+}
+
+.beranda_galeri .container .beranda a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #313131;
+}
+
+.beranda_galeri .container .beranda a:hover {
+    font-size: 16px;
+    text-decoration: none;
+    color: #00a2c8;
+}
+
+.medinfo {
+    font-family: poppins;
+    color: #313131;
+}
+
+.medinfo .container-medinfo-srawung {
+    overflow: hidden;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.medinfo .container-kementerian {
+    overflow: hidden;
+    width: 85%;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.medinfo .container-kementerian h1 {
+    margin-bottom: 5px;
+    font-size: 38px;
+}
+
+.medinfo .container-kementerian p {
+    margin-top: 5px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.medinfo .container-medinfo-srawung .medinfo-srawung {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medinfo .keterangan-gambar p {
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.medinfo .container-berita {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.medinfo .container-berita p {
+    overflow: hidden;
+    width: 85%;
+    margin: auto;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: justify;
+    text-indent: 45px;
+}
+
+.footer {
+    background: #313131;
+    width: 100%;
+}
+
+.footer_container {
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+}
+
+.logo_kabinet {
+    float: left;
+    padding-top: 13px;
+}
+
+.text_footer {
+    float: right;
+    width: 87%;
+    color: #fdfdff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.copyright_footer {
+    opacity: 0.5;
+    color: #fdfdff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    float: right;
+    width: 87%;
+}
